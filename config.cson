@@ -1,0 +1,223 @@
+"*":
+  "atom-beautify":
+    executables:
+      autopep8:
+        path: "/home/valentin/miniconda3/envs/HIV/bin/autopep8"
+      isort:
+        path: "/home/valentin/miniconda3/envs/HIV/bin/isort"
+    general:
+      beautifyEntireFileOnSave: false
+    latex:
+      indent_with_tabs: true
+    python:
+      max_line_length: 110
+      multi_line_output: "Hanging Grid"
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnType: false
+    "atom-ide-debugger":
+      showDebuggerOnBpSet: false
+    "atom-ide-diagnostics-ui": {}
+    "atom-ide-outline-view": {}
+    "atom-ide-terminal": {}
+    "debugger-exceptionBreakpointsCollapsed": false
+  "atom-notes":
+    directory: "/home/valentin/Desktop/richardLab/side_projects/Notes"
+  "atom-python-run":
+    f5Command: "/home/valentin/miniconda3/envs/HIV/bin/python {file}"
+    f5Pause: false
+  "autocomplete-plus":
+    autoActivationDelay: 50
+    confirmCompletion: "tab"
+  "autocomplete-python":
+    pythonPaths: "/home/valentin/miniconda3/envs/HIV/bin/python"
+  "autocomplete-python-jedi":
+    showDescriptions: false
+  core:
+    disabledPackages: [
+      "atom-typescript"
+      "language-latex"
+      "latex"
+      "count-word"
+    ]
+    packagesWithKeymapsDisabled: [
+      "pdf-view"
+    ]
+    packagesWithSnippetsDisabled: []
+    restorePreviousWindowsOnStart: "always"
+    telemetryConsent: "no"
+    useTreeSitterParsers: false
+  "cursor-history":
+    excludeClosedBuffer: true
+    searchAllPanes: false
+  editor:
+    invisibles: {}
+    preferredLineLength: 110
+    scrollPastEnd: true
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "01b33906-dad7-4b87-9635-b3b4b1f9d365"
+  github: {}
+  "highlight-selected":
+    hideHighlightOnSelectedWord: true
+    highlightBackground: true
+    lightTheme: true
+    showInStatusBar: false
+  "ide-python":
+    pylsPlugins:
+      autopep8:
+        enabled: false
+      flake8: {}
+      jedi_completion:
+        enabled: false
+        include_params: false
+      jedi_definition:
+        follow_imports: true
+      jedi_hover:
+        enabled: false
+      jedi_references:
+        enabled: false
+      jedi_signature_help:
+        enabled: false
+      jedi_symbols:
+        all_scopes: false
+        enabled: false
+      mccabe:
+        enabled: false
+      preload:
+        enabled: false
+      pycodestyle:
+        enabled: false
+        ignore: [
+          "E121"
+          "E123"
+          "E126"
+          "E226"
+          "E24"
+          "E704"
+          "W503"
+          "E127"
+        ]
+        maxLineLength: 1000
+      pyflakes:
+        enabled: false
+      pyls_mypy:
+        enabled: false
+        live_mode: false
+    python: "/home/valentin/miniconda3/envs/HIV/bin/python"
+  kite:
+    enableCodeFinderLineDecoration: false
+    showWelcomeNotificationOnStartup: false
+    signatureKwargsVisible: true
+    signaturePopularPatternsVisible: true
+  latex:
+    buildOnSave: true
+    enableExtendedBuildMode: false
+    openResultAfterBuild: false
+    openResultInBackground: false
+    opener: "pdf-view"
+    outputDirectory: "build"
+    texPath: "/usr/bin/"
+  linter:
+    lintOnChange: false
+  "linter-flake8":
+    maxLineLength: 110
+  "linter-mypy":
+    disallowRedefinition: false
+    disallowUntypedGlobals: false
+  "linter-python": {}
+  "linter-ui-default":
+    alwaysTakeMinimumSpace: true
+    panelHeight: 134
+  "markdown-preview":
+    grammars: [
+      "source.gfm"
+      "source.litcoffee"
+      "text.html.basic"
+      "text.md"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.gfm.notes"
+    ]
+  minimap: {}
+  "pdf-view":
+    paneToUseInSynctex: "right"
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        blue: "#0000d0"
+      zBright:
+        brightBlue: "#4e4eff"
+        brightGreen: "#46aa46"
+    customTexts: {}
+    iconColors: {}
+    style: {}
+    toggles: {}
+  "python-debugger":
+    pythonExecutable: "/home/valentin/miniconda3/envs/HIV/bin/python"
+  "python-linters":
+    lintTrigger:
+      pydocstyle: "Never"
+      pylint: "Never"
+  "python-tools": {}
+  "quick-highlight": {}
+  "spell-check":
+    excludedScopes: [
+      "en-GB"
+    ]
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.rst"
+      "text.restructuredtext"
+      "source.gfm.notes"
+      "text.tex.latex"
+    ]
+    knownWords: [
+      "bacteriophage"
+      "bacteriophages"
+      "phage"
+      "phages"
+    ]
+    useSystem: false
+  terminus:
+    ansiColors:
+      normal: {}
+      zBright:
+        brightBlue: "#4f4fe7"
+        brightGreen: "#30c730"
+    customTexts:
+      customText1: "clear"
+      customText2: "run scripts/$F"
+    style: {}
+    toggles:
+      loginShell: false
+      showToolbar: false
+  welcome:
+    showOnStartup: false
+".beamer.latex.tex.text":
+  editor:
+    tabLength: 5
+".bibtex.text":
+  editor:
+    autoIndent: true
+    softWrap: true
+    softWrapAtPreferredLineLength: false
+    tabLength: 5
+    tabType: "auto"
+".latex.memoir.tex.text":
+  editor:
+    tabLength: 5
+".latex.tex.text":
+  editor:
+    showIndentGuide: true
+    showInvisibles: false
+    softWrapAtPreferredLineLength: false
+    tabLength: 4
+    tabType: "auto"
+".tex.text":
+  editor:
+    softWrap: false

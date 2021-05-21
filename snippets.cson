@@ -1,0 +1,64 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+
+# This are my snippnets for LateX. I don't use the default ones because they suggest stuff without starting
+# by a "\", which is very annoying when writting the core text.
+
+
+#
+#
+#
+# '.latex.tex.text':
+#   '\chapter':
+#     'prefix': '\chapter'
+#     'body': '\\chapter{${1:chapter name}}\n$0'
+#
+#   '\paragraph':
+#     'prefix': '\paragraph'
+#     'body': '\\paragraph{${1:paragraph name}}\n$0'
+#
+#   '\section':
+#     'prefix': '\section'
+#     'body': '\\section{${1:section name}}\n$0'
+#
+#   '\subsection':
+#     'prefix': '\subsection'
+#     'body': '\\subsection{${1:subsection name}}\n$0'
+#
+#   '\subsubsection':
+#     'prefix': '\subsubsection'
+#     'body': '\\subsubsection{${1:subsubsection name}}\n$0'
+#
+#   '\begin{}...\end{}':
+#     'prefix': '\begin'
+#     'body': '\\begin{${1:env}}$2\n\t$0\n\\end{${1:env}}'
+#
+# '.latex.tex.text .math.other.string':
+#   '\fraction':
+#     'prefix': '\frac'
+#     'body': '\\frac{$1}{$2}$0'
+#
+# '.latex.tex.text .environment.function.list.meta':
+#   '\item':
+#     'prefix': '\item'
+#     'body': '\\item ${0:item}'
