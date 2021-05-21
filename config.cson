@@ -42,6 +42,7 @@
     ]
     packagesWithKeymapsDisabled: [
       "pdf-view"
+      "python-tools"
     ]
     packagesWithSnippetsDisabled: []
     restorePreviousWindowsOnStart: "always"
@@ -52,8 +53,8 @@
     searchAllPanes: false
   "docblock-python":
     lint: true
-    returns: false
-    use_defaults: true
+    style: "google"
+    types: {}
   editor:
     invisibles: {}
     preferredLineLength: 110

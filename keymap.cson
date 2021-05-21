@@ -35,7 +35,6 @@
   'ctrl-d': 'kite:docs-at-cursor'
 
 '.platform-linux atom-workspace, .platform-win32 atom-workspace':
-  # 'shift-alt-f': 'platformio-ide-terminal:focus'
   'shift-alt-f': 'terminus:focus'
   'f4': 'terminus:insert-custom-text-1'
   'f5': 'terminus:insert-custom-text-2'
@@ -43,8 +42,6 @@
 'body':
   'alt-shift-e': 'window:focus-previous-pane'
   'alt-shift-a': 'window:focus-next-pane'
-
-
 
 'atom-workspace':
   'alt-shift-d': 'cursor-history:next-within-editor'
@@ -55,14 +52,16 @@
 
 'atom-text-editor':
   'shift-alt-b': 'atom-beautify:beautify-editor'
-
-'.platform-linux atom-text-editor':
-  # 'f2': 'hyperclick:confirm-cursor'
-  'f2': 'autocomplete-python-jedi:go-to-definition'
+  'f2' : 'python-tools:goto-definition'
+  'ctrl-alt-e': 'python-tools:show-usages'
+  '': 'python-tools:select-all-string'
 
 
 '.editor':
-  'alt-up': 'editor:move-to-beginning-of-previous-paragraph'
-  'alt-down': 'editor:move-to-beginning-of-next-paragraph'
+  'ctrl-e': 'editor:select-word'
+  'ctrl-up': 'editor:move-to-beginning-of-previous-paragraph'
+  'ctrl-down': 'editor:move-to-beginning-of-next-paragraph'
   'alt-shift-up': 'editor:select-to-beginning-of-previous-paragraph'
   'alt-shift-down': 'editor:select-to-beginning-of-next-paragraph'
+  'alt-down': 'editor:move-line-down'
+  'alt-up': 'editor:move-line-up'
