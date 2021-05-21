@@ -57,7 +57,8 @@
     showIndentGuide: true
   "exception-reporting":
     userId: "01b33906-dad7-4b87-9635-b3b4b1f9d365"
-  github: {}
+  github:
+    remoteFetchProtocol: "ssh"
   "highlight-selected":
     hideHighlightOnSelectedWord: true
     highlightBackground: true
