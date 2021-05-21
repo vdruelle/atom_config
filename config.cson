@@ -50,6 +50,10 @@
   "cursor-history":
     excludeClosedBuffer: true
     searchAllPanes: false
+  "docblock-python":
+    lint: true
+    returns: false
+    use_defaults: true
   editor:
     invisibles: {}
     preferredLineLength: 110

@@ -59,3 +59,10 @@
 '.platform-linux atom-text-editor':
   # 'f2': 'hyperclick:confirm-cursor'
   'f2': 'autocomplete-python-jedi:go-to-definition'
+
+
+'.editor':
+  'alt-up': 'editor:move-to-beginning-of-previous-paragraph'
+  'alt-down': 'editor:move-to-beginning-of-next-paragraph'
+  'alt-shift-up': 'editor:select-to-beginning-of-previous-paragraph'
+  'alt-shift-down': 'editor:select-to-beginning-of-next-paragraph'
