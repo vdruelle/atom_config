@@ -1,10 +1,14 @@
 "*":
+  Hydrogen:
+    autocomplete: false
+    outputAreaDefault: true
+    startDir: "dirOfFile"
   "atom-beautify":
     executables:
       autopep8:
-        path: "/home/valentin/miniconda3/envs/HIV/bin/autopep8"
+        path: "/usr/bin/autopep8"
       isort:
-        path: "/home/valentin/miniconda3/envs/HIV/bin/isort"
+        path: "/usr/bin/isort"
     general:
       beautifyEntireFileOnSave: false
     latex:
@@ -34,11 +38,16 @@
   "autocomplete-python-jedi":
     showDescriptions: false
   core:
+    audioBeep: false
     disabledPackages: [
       "atom-typescript"
       "language-latex"
       "latex"
+      "pdf-view"
       "count-word"
+      "minimap"
+      "minimap-find-and-replace"
+      "minimap-highlight-selected"
     ]
     packagesWithKeymapsDisabled: [
       "pdf-view"
@@ -47,12 +56,10 @@
     packagesWithSnippetsDisabled: []
     restorePreviousWindowsOnStart: "always"
     telemetryConsent: "no"
-    useTreeSitterParsers: false
   "cursor-history":
     excludeClosedBuffer: true
     searchAllPanes: false
   "docblock-python":
-    lint: true
     style: "google"
     types: {}
   editor:
@@ -135,7 +142,7 @@
   "linter-python": {}
   "linter-ui-default":
     alwaysTakeMinimumSpace: true
-    panelHeight: 134
+    panelHeight: 184
   "markdown-preview":
     grammars: [
       "source.gfm"
@@ -146,7 +153,17 @@
       "text.plain.null-grammar"
       "source.gfm.notes"
     ]
-  minimap: {}
+  minimap:
+    absoluteMode: true
+    adjustMinimapWidthOnlyIfSmaller: false
+    adjustMinimapWidthToSoftWrap: false
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      "minimap-autohider": true
+      "minimap-autohiderDecorationsZIndex": 0
   "pdf-view":
     paneToUseInSynctex: "right"
   "platformio-ide-terminal":
@@ -160,6 +177,8 @@
     iconColors: {}
     style: {}
     toggles: {}
+  "python-autopep8":
+    maxLineLength: 110
   "python-debugger":
     pythonExecutable: "/home/valentin/miniconda3/envs/HIV/bin/python"
   "python-linters":
@@ -215,6 +234,13 @@
     softWrapAtPreferredLineLength: false
     tabLength: 5
     tabType: "auto"
+".breakpoints.hydrogen":
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+    scrollPastEnd: false
+    showIndentGuide: false
+    showInvisibles: false
 ".latex.memoir.tex.text":
   editor:
     tabLength: 5

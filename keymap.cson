@@ -65,3 +65,6 @@
   'alt-shift-down': 'editor:select-to-beginning-of-next-paragraph'
   'alt-down': 'editor:move-line-down'
   'alt-up': 'editor:move-line-up'
+
+'.find-and-replace, .project-find, .project-find .results-view':
+  'f4': 'find-and-replace:replace-next'
