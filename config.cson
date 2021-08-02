@@ -11,8 +11,7 @@
         path: "/usr/bin/isort"
     general:
       beautifyEntireFileOnSave: false
-    latex:
-      indent_with_tabs: true
+    latex: {}
     python:
       max_line_length: 110
       multi_line_output: "Hanging Grid"
@@ -41,9 +40,6 @@
     audioBeep: false
     disabledPackages: [
       "atom-typescript"
-      "language-latex"
-      "latex"
-      "pdf-view"
       "count-word"
       "minimap"
       "minimap-find-and-replace"
@@ -67,6 +63,8 @@
     preferredLineLength: 110
     scrollPastEnd: true
     showIndentGuide: true
+    tabLength: 4
+    tabType: "soft"
   "exception-reporting":
     userId: "01b33906-dad7-4b87-9635-b3b4b1f9d365"
   "file-icons": {}
@@ -134,6 +132,8 @@
     texPath: "/usr/bin/"
   linter:
     lintOnChange: false
+    lintOnOpen: false
+    lintPreviewTabs: false
   "linter-flake8":
     maxLineLength: 110
   "linter-mypy":
@@ -217,7 +217,7 @@
         brightGreen: "#30c730"
     customTexts:
       customText1: "clear"
-      customText2: "run scripts/$F"
+      customText2: "python scripts/$F"
     style: {}
     toggles:
       loginShell: false
@@ -232,8 +232,7 @@
     autoIndent: true
     softWrap: true
     softWrapAtPreferredLineLength: false
-    tabLength: 5
-    tabType: "auto"
+    tabType: "hard"
 ".breakpoints.hydrogen":
   editor:
     autoIndent: false
@@ -250,7 +249,7 @@
     showInvisibles: false
     softWrapAtPreferredLineLength: false
     tabLength: 4
-    tabType: "auto"
+    tabType: "hard"
 ".tex.text":
   editor:
     softWrap: false

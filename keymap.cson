@@ -56,6 +56,8 @@
   'ctrl-alt-e': 'python-tools:show-usages'
   '': 'python-tools:select-all-string'
 
+'atom-text-editor[data-grammar~="latex"]':
+  'f2': 'latex:sync'
 
 '.editor':
   'ctrl-e': 'editor:select-word'
