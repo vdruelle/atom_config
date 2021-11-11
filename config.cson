@@ -32,9 +32,12 @@
   "autocomplete-plus":
     autoActivationDelay: 50
     confirmCompletion: "tab"
+    enableBuiltinProvider: false
   "autocomplete-python":
-    pythonPaths: "/home/valentin/miniconda3/envs/HIV/bin/python"
+    pythonPaths: "/home/valentin/miniconda3/envs/hivevo/bin/python"
+    useKite: false
   "autocomplete-python-jedi":
+    outputProviderErrors: true
     showDescriptions: false
   core:
     audioBeep: false
@@ -44,10 +47,13 @@
       "minimap"
       "minimap-find-and-replace"
       "minimap-highlight-selected"
+      "kite"
+      "autocomplete-python"
     ]
     packagesWithKeymapsDisabled: [
       "pdf-view"
       "python-tools"
+      "autocomplete-python-jedi"
     ]
     packagesWithSnippetsDisabled: []
     restorePreviousWindowsOnStart: "always"
